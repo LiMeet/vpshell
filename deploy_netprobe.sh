@@ -1,6 +1,9 @@
 #!/bin/bash
 
+
 echo "开始部署网络测试服务..."
+
+sudo apt update && apt install nginx
 
 # 1. 停止 Nginx
 systemctl stop nginx
