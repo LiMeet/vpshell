@@ -2,7 +2,10 @@
 # Author: lidem
 # Version: 1.0.0
 
-echo "开始部署网络测试服务..."
+echo "
+ Author: lidem
+ Version: 1.0.0
+开始部署网络测试服务..."
 
 # 检查是否为 root 用户
 if [ "$EUID" -ne 0 ]; then 
