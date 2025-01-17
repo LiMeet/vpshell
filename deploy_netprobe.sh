@@ -1,4 +1,6 @@
 #!/bin/bash
+# Author: lidem
+# Version: 1.0.0
 
 echo "开始部署网络测试服务..."
 
